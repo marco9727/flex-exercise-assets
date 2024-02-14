@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(255 243 204);
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  gap: 20px;
+  display: flex;
+  padding-block: 30px;
+}
+
+header nav button {
+  display: flex;
+  gap: 15px;
+  background-color: rgb(255 223 117);
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+main h1 {
+  margin-left: 24px;
+  padding-top: 14px;
+  font-family: cursive;
+  font-size: 45px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+
+  flex-wrap: wrap;
+  padding: 3%;
+  gap: 15%;
+}
+
+.card-text h3,
+p {
+  font-family: sans-serif;
+}
+
+.card-text h3 {
+  font-weight: bold;
+}
+
+.conteiner {
+  width: 42.5%;
+  border-radius: 80px;
+
+  background-color: rgb(255 243 204);
+  margin: auto;
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+
+.conteiner div img {
+  width: 100%;
+}
+
+.button {
+  margin-inline: auto;
+  margin-block: 20px;
+  padding-block: 4px;
+  border-radius: 50px;
+  display: block;
+  padding: 24px;
+  width: 200px;
+}
+
+.card-text {
+  display: flex;
+}
+
+.Bio {
+  margin-left: 19px;
+}
+
+.price {
+  margin-left: 120px;
+  padding-top: 11px;
+}
